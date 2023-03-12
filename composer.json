@@ -1,0 +1,17 @@
+{
+    "name": "app/btth03",
+    "type": "library",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "twig/twig": "^3.5",
+        "phpmailer/phpmailer": "*"
+    }
+
+}
